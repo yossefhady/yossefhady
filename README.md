@@ -27,7 +27,7 @@ class EmbeddedEngineer:
             "Robotics": ["ROS 2", "Gazebo", "SLAM", "PID Control"],
             "IoT": ["Firebase", "MQTT", "Sensor Networks"],
             "Programming": ["C/C++", "Python", "TSQL"]
-            "Tools": ["ESP-IDF", "Arduino"]
+            "Tools": ["ESP-IDF", "Arduino", "Simulink"]
         }
         self.achievements = [
             "Led 150+ students in award-winning robotics projects",
