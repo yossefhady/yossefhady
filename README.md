@@ -23,10 +23,11 @@ class EmbeddedEngineer:
         self.organization = "Mansoura University"
         self.graduation = "2026 (GPA: 3.5)"
         self.skills = {
-            "Embedded": ["ESP32", "AVR", "Arduino", "FreeRTOS", "Bare-metal"],
+            "Embedded": ["ESP32", "AVR", "FreeRTOS", "Bare-metal"],
             "Robotics": ["ROS 2", "Gazebo", "SLAM", "PID Control"],
             "IoT": ["Firebase", "MQTT", "Sensor Networks"],
-            "Programming": ["C/C++", "Python", "MATLAB"]
+            "Programming": ["C/C++", "Python", "TSQL"]
+            "Tools": ["ESP-IDF", "Arduino"]
         }
         self.achievements = [
             "Led 150+ students in award-winning robotics projects",
