@@ -1,110 +1,114 @@
-<!--- Header with animated background -->
+<!-- Clean, minimal gradient header (Blue) -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=YOSSEF%20HADY&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Embedded%20Systems%20Engineer%20%7C%20Robotics%20Specialist%20%7C%20IoT%20Developer&descAlign=60&descAlignY=55"/>
+  <img width="100%" alt="Yossef Hady header"
+       src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=1f6feb,0a3069,0d1117&height=160&section=header&text=YOSSEF%20HADY&fontSize=64&fontColor=ffffff&animation=fadeIn" />
+  <p><b>Robotics · Embedded Systems · Automation</b></p>
 </div>
 
-<!--- Profile counters with cool styling -->
+<!-- Alternate header (Blue · Black · Red) — uncomment to use -->
+<!--
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=yossefhady&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="yossefhady" /> 
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=yossefhady.yossefhady&left_color=royalblue&right_color=blue&left_text=Total%20Visitors" />
-  <img src="https://img.shields.io/github/followers/yossefhady?label=Followers&style=for-the-badge&color=blue&logo=github" />
+  <img width="100%" alt="Yossef Hady header (Blue-Black-Red)"
+       src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=1f6feb,0d1117,ff4655&height=160&section=header&text=YOSSEF%20HADY&fontSize=64&fontColor=ffffff&animation=fadeIn" />
+  <p><b>Robotics · Embedded Systems · Automation</b></p>
+</div>
+-->
+
+<!-- Optional dynamic typing line -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=28&center=true&vCenter=true&width=600&height=50&duration=3500&pause=600&lines=Hi+there!+👋;I'm+Yossef+Hady;Embedded+%26+Robotics+Engineer" />
 </div>
 
-<br>
+<!-- Subheading -->
+<h2 align="center">🔭 Engineering Smart Systems</h2>
 
-<!--- Dynamic typing animation -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;I'm+Yossef+Hady!;Building+the+Future!;Embedded+Systems+Expert;Robotics+Innovator;IoT+Developer;Let's+Code+Together!🚀" />
-</div>
-
-<!--- Cool subheading with emojis -->
-<h2 align="center">🔭 Engineering Smart Systems: Robotics · Embedded · Automation</h2>
-
-<!--- Fun Facts Section -->
+<!-- Fun Facts Section -->
 <div align="center">
 <details>
 <summary>💡 <strong>Fun Facts About Me</strong> (Click to expand!)</summary>
 <br>
 
-🎯 **Code Philosophy**: "Hardware is hard, but software makes it smart!" <br>
-⚡ **Superpower**: Turning coffee into embedded systems code <br>
-🤖 **Robot BFF**: My self-balancing robot named "Balancy" <br>
-📡 **IoT Obsession**: I make everything smart - even my toaster! <br>
-🎓 **Learning Mode**: Always ON (just like my microcontrollers) <br>
-🌟 **Fun Fact**: I've debugged more hardware than most people have seen! <br>
+🎯 <b>Code Philosophy</b>: "Hardware is hard, but software makes it smart!" <br>
+⚡ <b>Superpower</b>: Turning coffee into embedded systems code <br>
+🤖 <b>Robot BFF</b>: My self-balancing robot named "Balancy" <br>
+📡 <b>IoT Obsession</b>: I make everything smart - even my toaster! <br>
+🎓 <b>Learning Mode</b>: Always ON (just like my microcontrollers) <br>
+🌟 <b>Fun Fact</b>: I've debugged more hardware than most people have seen! <br>
 
 </details>
 </div>
 
-<!--- GitHub Trophies with enhanced styling -->
+<!-- Trophies -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yossefhady&theme=radical&row=2&column=3&margin-w=15&margin-h=15&no-bg=false&no-frame=false" alt="yossefhady" />
+  <img src="https://github-profile-trophy.vercel.app/?username=yossefhady&theme=radical&row=1&column=6&margin-w=15&margin-h=15&no-bg=true" alt="trophies" />
 </div>
 
 ## 🚀 Professional Profile
 
 ```python
-class EmbeddedEngineer:
+class EmbeddedRoboticsEngineer:
     def __init__(self):
         self.name = "Yossef Hady Atef"
         self.title = "Mechatronics Engineering Student"
-        self.organization = "Mansoura University"
-        self.graduation = "2026 (GPA: 3.5)"
-        self.skills = {
-            "Embedded": ["ESP32", "AVR", "FreeRTOS", "Bare-metal"],
+        self.university = "Mansoura University"
+        self.graduation_year = 2026
+        self.current_gpa = 3.5
+
+    def skills(self):
+        return {
+            "Embedded Systems": ["ESP32", "AVR", "FreeRTOS", "Bare-metal C/C++"],
             "Robotics": ["ROS 2", "Gazebo", "SLAM", "PID Control"],
-            "IoT": ["Firebase", "MQTT", "Sensor Networks"],
-            "Programming": ["C/C++", "Python", "TSQL"],
-            "Tools": ["ESP-IDF", "Arduino", "Simulink"]
+            "Web & Backend": ["ASP.NET", "C#", "MVC", "TSQL", "SSMS"],
+            "IoT & Networking": ["Firebase", "Supabase", "MQTT", "UDP"],
+            "Industrial Automation": ["PLC", "Classic Control"],
+            "Programming": ["C/C++", "Python", "C#"],
+            "Hardware & PCB Design": ["Altium Designer", "KiCad", "Arduino"],
+            "Developer Tools": ["ESP-IDF", "Simulink", "Git", "GitHub", "Docker"]
         }
-        self.achievements = [
-            "Led 150+ students in award-winning robotics projects",
-            "Reduced system energy consumption by 25% in smart home project",
-            "Organized hackathon with 1000+ participants"
-        ]
-        
+
     def contact(self):
-        return {"Email": "yossefhady007@gmail.com", 
-                "Phone": "+20 1011446741",
-                "LinkedIn": "linkedin.com/in/yossefhady"}
+        return {
+            "Email": "yossefhady007@gmail.com",
+            "LinkedIn": "linkedin.com/in/yossefhady",
+            "Phone": "+20 1011446741"
+        }
 
-engineer = EmbeddedEngineer()
+me = EmbeddedRoboticsEngineer()
 ```
-
-
 
 ## 🛠️ Technical Arsenal
 
 <div align="center">
 
-### 🔧 Hardware & Embedded Systems
+### 🔧 Embedded & Hardware
 <p>
   <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" />
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white" />
-  <img src="https://img.shields.io/badge/AVR-FF6F00?style=for-the-badge&logo=atmel&logoColor=white" />
   <img src="https://img.shields.io/badge/FreeRTOS-00979D?style=for-the-badge&logo=freertos&logoColor=white" />
+  <img src="https://img.shields.io/badge/Altium%20Designer-A5915F?style=for-the-badge&logo=altium-designer&logoColor=white" />
+  <img src="https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white" />
 </p>
 
-### 💻 Programming Languages & Tools
+### 💻 Programming & Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,matlab,bash,cmake,git,github,docker,linux&perline=5" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,cs,dotnet,bash" />
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
 </p>
 
-### 🤖 Robotics & AI Stack
+### 🤖 Robotics & Automation
 <p>
   <img src="https://img.shields.io/badge/ROS%202-22314E?style=for-the-badge&logo=ros&logoColor=white" />
   <img src="https://img.shields.io/badge/Gazebo-FF6F00?style=for-the-badge&logo=gazebo&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white" />
+  <img src="https://img.shields.io/badge/PLC-336699?style=for-the-badge&logo=siemens&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
 
-### ☁️ IoT & Cloud Technologies
+### ☁️ IoT & Cloud
 <p>
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
   <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white" />
-  <img src="https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/UDP-000000?style=for-the-badge&logo=socketdotio&logoColor=white" />
 </p>
 
 ### 🔧 Development Tools
@@ -112,7 +116,8 @@ engineer = EmbeddedEngineer()
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   <img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
   <img src="https://img.shields.io/badge/Simulink-FF6600?style=for-the-badge&logo=mathworks&logoColor=white" />
-  <img src="https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 </div>
@@ -123,70 +128,58 @@ engineer = EmbeddedEngineer()
 
 <div align="center">
 
-<!--- Top row: Streak and Stats -->
+<!-- Top row: Streak and Stats -->
 <a href="https://git.io/streak-stats">
   <img src="https://streak-stats.demolab.com?user=yossefhady&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=495" width="49%" />
 </a>
 <img src="https://github-readme-stats.vercel.app/api?username=yossefhady&show_icons=true&theme=radical&hide_border=true&card_width=495" width="49%" />
 
-<!--- Middle row: Languages and Activity -->
+<!-- Middle row: Languages and Wakatime -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yossefhady&layout=compact&theme=radical&hide_border=true&card_width=495" width="49%" />
 <img src="https://github-readme-stats.vercel.app/api/wakatime?username=yossefhady&theme=radical&hide_border=true&card_width=495" width="49%" />
 
-<!--- Bottom row: Contribution Activity Graph -->
+<!-- Bottom row: Contribution Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=yossefhady&theme=radical&hide_border=true&custom_title=Contribution%20Activity%20Graph" width="98%" />
 
-<!--- Coding Activity Visualization -->
+<!-- Profile Summary -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yossefhady&theme=radical" width="98%" />
 
 </div>
 
-<!--- Cool separator -->
+<!-- Separator -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🏆 Featured Projects & Innovations
+## 🏆 Featured Project: Self-Balancing Robot
 
 <div align="center">
 
-### 🤖 Self-Balancing Robot
-<img src="https://github.com/yossefhady/Self-Balance/blob/main/docs/gazebo_screenshot.png" width="60%" style="border-radius: 15px; border: 3px solid #ff6b6b; box-shadow: 0 8px 32px rgba(255, 107, 107, 0.3);"/>
+<img src="https://github.com/yossefhady/Self-Balance/blob/main/docs/gazebo_screenshot.png" width="60%" style="border-radius: 15px; border: 3px solid #61DAFB; box-shadow: 0 8px 32px rgba(97, 218, 251, 0.3);" />
 
-**🚀 ROS 2 Powered Delivery Robot**
-- 🎯 ESP32 microcontroller with custom PID algorithm
-- ⚖️ Real-time balance control using IMU sensors  
-- 📡 Wireless control and monitoring
-- 🎮 Gazebo simulation environment
+<b>🚀 ROS 2 Powered Delivery Robot</b>
+- <b>Microcontroller</b>: ESP32 with custom PID algorithm for real-time balance control using an IMU.
+- <b>Simulation</b>: Developed and tested in a Gazebo simulation environment.
+- <b>Features</b>: Wireless control, real-time monitoring, and robust balancing logic.
 
 <a href="https://github.com/yossefhady/Self-Balance">
-  <img src="https://img.shields.io/badge/View%20Project-FF6B6B?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/View%20Project%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
+</div>
+
+## 💡 Key Achievements & Leadership
+
+- Robotics Leadership: Mentored and led over 150 students in developing award-winning robotics projects, fostering innovation and teamwork.
+- Energy Efficiency: Engineered a smart home automation system on an ESP32 network that successfully reduced energy consumption by 25%.
+- Community Building: Co-organized a major tech hackathon with over 1,000 participants, promoting advancements in IoT and robotics.
+
 ---
-
-### 💡 Other Notable Projects
-<div align="left">
-
-🏠 **Smart Home Automation System**  
-   - Reduced energy consumption by 25%  
-   - ESP32-based sensor network with Firebase integration  
-
-🤖 **Multi-Robot Coordination Platform**  
-   - Led team of 150+ students in award-winning project  
-   - Implemented SLAM algorithms for autonomous navigation  
-
-🎪 **Tech Hackathon Organization**  
-   - Organized event with 1000+ participants  
-   - Focused on IoT and robotics innovations  
-
-</div>
-
-</div>
 
 ## 🤝 Let's Connect & Collaborate!
 
 <div align="center">
 
-### 📫 Reach Out To Me
+I'm always excited to discuss new projects, innovative ideas, or opportunities in embedded systems and robotics. Let's build something amazing together!
+
 <p>
   <a href="https://linkedin.com/in/yossefhady" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -202,23 +195,9 @@ engineer = EmbeddedEngineer()
   </a>
 </p>
 
-### 💭 Let's Build Something Amazing Together!
-<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=600&height=70&duration=4000&lines=🚀+Ready+to+innovate+with+embedded+systems?;🤖+Let's+create+the+next+generation+of+robots!;💡+Your+IoT+ideas+%2B+My+expertise+%3D+Magic!;📧+Drop+me+a+message+and+let's+collaborate!" />
-
 </div>
 
-<!--- Cool footer -->
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
-</div>
-
+<!-- Contribution Grid Snake -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-❤️%20and%20lots%20of%20☕-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Thanks%20for-visiting!-blue?style=for-the-badge&logo=github" />
-</p>
